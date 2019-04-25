@@ -16,7 +16,7 @@
 
 import electron = require('electron');
 import { fork } from 'child_process';
-import { injectable, inject } from 'inversify';
+import { inject, injectable } from 'inversify';
 import { ElectronStorageService } from './electron-storage-service';
 import { ElectronMainApplicationContribution } from './electron-main-application';
 import { ElectronNativeKeymapService } from './electron-native-keymap-service';
